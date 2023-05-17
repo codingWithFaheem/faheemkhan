@@ -15,7 +15,12 @@ module.exports = {
       colors : {
         primary: '#0f288b' ,
         secondary :'#8978e0' ,
-        tertiary : '#'
+        darkPrimary: '',
+        darkSecondary : ''
+      }
+      ,
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--gradient-color-stops))',
       }
     },
   },
