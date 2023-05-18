@@ -18,10 +18,7 @@ module.exports = {
         darkPrimary: '',
         darkSecondary : ''
       }
-      ,
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--gradient-color-stops))',
-      }
+    
     },
   },
   plugins: [],

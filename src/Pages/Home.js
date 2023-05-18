@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Home = ({darkMode}) => {
+  const hireBtnModeEffect = darkMode ? 'border-[#9baee9] text-[#9baee9] hover:text-[#333188] hover:bg-[#9baee9]' : 'border-[#333188] text-[#333188] hover:bg-[#3943b3]  hover:text-[#9baee9] hover:bg-[#333188]' ;
+
   return (
     <div  className=' max-w-[1240px] h- mt-20  px-8 md:px-8
                        flex h-screen  w-[100%]
@@ -21,8 +23,8 @@ const Home = ({darkMode}) => {
          </p> 
          <div className=' md:ml-24 mt-10  md:mt-24'>
               <div className=' w-full md:w-[22rem] flex flex-col md:flex-row items-center justify-between'>
-              <button className={` md:text-[19px] font-bold text-white rounded-[14px] border-none w-full  md:w-[11rem]  py-[18px] md:py-[22px] bg-[#3943b3]   tracking-[4px]`}>Projects</button>
-              <button className={` border-4 ${darkMode ? 'border-[#9baee9]' : 'border-[#333188]'} md:text-[19px] font-bold ${darkMode ? 'text-[#9baee9]' :'text-[#333188]'} ${darkMode ? 'hover:text-[#333188]' :'hover:text-[#9baee9]'}  ${darkMode ? 'hover:bg-[#9baee9]' :'hover:bg-[#333188]'}  rounded-[14px]  w-full  md:w-[9rem]  py-[18px] md:py-[20px] mt-4 md:mt-0 hover:bg-[#9baee9] tracking-[4px]`}>Hire Me</button>
+              <button className={` md:text-[19px] font-bold text-white  rounded-[14px] border-none w-full  md:w-[11rem]  py-[18px] md:py-[22px] bg-[#3943b3]   tracking-[4px]`}>Projects</button>
+              <button className={` border-4 ${hireBtnModeEffect}  md:text-[19px] font-bold rounded-[14px]  w-full  md:w-[9rem]  py-[18px] md:py-[20px] mt-4 md:mt-0  tracking-[4px]`}>Hire Me</button>
 
               </div>
 
