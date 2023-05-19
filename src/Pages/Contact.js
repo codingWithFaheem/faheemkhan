@@ -5,7 +5,7 @@ import {FiLinkedin} from 'react-icons/fi' ;
 
 export const Contact = () => {
     return (
-        <div className={`bg-[#333881] h-[110vh]  md:h-[100vh]  w-full  
+        <div className={`bg-[#111e62] h-[110vh]  md:h-[100vh]  w-full  
         py-[3rem] px-[2rem] md:p-[] 
         flex flex-col  justify-start items-center
         `}>
@@ -17,7 +17,7 @@ export const Contact = () => {
                                 <label htmlFor="name"
                                 className=" font-1 font-bold text-[#cad7fd]  text-[16px] md:text-[18px]
                                 py-[0.6rem] px-[1.5rem] m
-                              absolute top-0 bg-[#333881] left-6
+                              absolute top-0 bg-[#111e62] left-6
                                 "
                                 >Name</label>
                                 <input type="text"  placeholder="Ex : Jame Mordan" className="
@@ -25,7 +25,7 @@ export const Contact = () => {
                                 placeholder:text-[#cad7fd] font-1 font-bold text-[16px]
                                 text-[#cad7fd] 
                               border-2 border-[#cad7fd]
-                              outline-none bg-[#333881] 
+                              outline-none bg-[#111e62] 
                               "/>
 
                                 </div>
@@ -34,14 +34,14 @@ export const Contact = () => {
                                         <label htmlFor="name"
                                         className=" font-1 font-bold text-[#9baee9]  text-[16px] md:text-[18px]
                                         py-[0.6rem]  px-[1.5rem] 
-                                        absolute top-0 bg-[#333881] left-6
+                                        absolute top-0 bg-[#111e62] left-6
                                         "
                                         >Email</label>
                                         <input type="text"  placeholder="Ex : jameMordan10@gmail.com" className="
                                         h-[4rem] w-[22rem] sm:w-[26rem] md:w-[]   px-4 rounded-[13px] text-[#cad7fd]
                                         placeholder:text-[#cad7fd] font-1 font-bold text-[16px]
                                         border-2 border-[#cad7fd]
-                                        outline-none bg-[#333881] 
+                                        outline-none bg-[#111e62] 
                                         "/>
 
                                 </div>   
@@ -49,14 +49,14 @@ export const Contact = () => {
                                 <label htmlFor="name"
                                         className=" font-1 font-bold text-[#9baee9]  text-[16px] md:text-[18px]
                                         py-[0.6rem] px-[1.5rem] 
-                                        absolute top-0 bg-[#333881] left-6
+                                        absolute top-0 bg-[#111e62] left-6
                                         "
                                         >Messge</label>
                                         <textarea className="
                                          h-[14rem] w-[22rem] sm:w-[26rem] md:w-[]   px-4 pt-10 rounded-[13px]
                                          font-1  text-[16px] text-[#cad7fd]
                                          border-2 border-[#cad7fd]
-                                         outline-none bg-[#333881] 
+                                         outline-none bg-[#111e62] 
                                          ">
                                             
                                         </textarea>

@@ -13,7 +13,7 @@ export const About = () => {
     <div className='  w-full h-[100vh] sm:h-[85vh]  md:h-[150vh]    py-6 px-8 bg-[#cad7fd]
     flex flex-col justify-start  md:justify-start items-center relative'>
       <p className={`absolute top-[4rem] md:top-[4.9rem] lg:top-[3.2rem] px-8
-       text-[#333188] bg-[#cad7fd] text-[28px]  md:text-[45px] 2xl:text-[92px] rounded-[18px] w-fit`}>About Me</p>
+       text-[#333188] bg-[#cad7fd] text-[28px]  md:text-[45px] lg:text-[65px] rounded-[18px] w-fit`}>About Me</p>
            
               <div className={` border-4 border-[#333188] 
               py-7 px-4 md:py-10 lg:py-10 md:px-12 mt-16 md:mt-24
