@@ -9,7 +9,7 @@ export const Contact = () => {
         py-[3rem] px-[2rem] md:p-[] 
         flex flex-col  justify-start items-center
         `}>
-            <div className=" md:mt-28 w-full md:w-[756px] lg:w-[1024px] xl:w-[1240px] flex flex-col lg:flex-row justify-start lg:justify-center items-center gap-x-20 ">
+            <div className=" md:mt-16 w-full md:w-[756px] lg:w-[1024px] xl:w-[1240px] flex flex-col lg:flex-row justify-start lg:justify-center items-center gap-x-20 ">
                 <p className=" font-1 text-center  text-[#cad7fd]  text-[52px] md:text-[72px] lg:text-[92px]  ">Let's Talk</p>
                 <form className=" mt-6 flex flex-col">
                                 <div className="border- relative  borde-2 rem] py-6">
@@ -64,15 +64,16 @@ export const Contact = () => {
                    </form>
             </div>
             <div className=" bg-[#cad7fd]
-                           h-[4rem]  md:ml-[28rem] px-4 rounded-[13px]
+                          w-[80%] md:w-[64%] lg:w-[28%] xl:w-[22%]
+                           h-[4rem]  xl:ml-[28rem] px-4 md:py-4  rounded-[13px]
                            flex justify-center items-center gap-x-8
                            
             ">
-              <FiInstagram className=' text-[24px] md:text-[34px] md:text-[] text-[#333881]' />
-              <FiFacebook className='text-[24px] md:text-[34px] md:text-[] text-[#333881]' />
-              <AiOutlineGithub className='text-[24px] md:text-[34px] md:text-[] text-[#333881]' />
-              <FiLinkedin className='text-[24px] md:text-[34px] md:text-[] text-[#333881]' />
+              <FiInstagram className=' cursor-pointer text-[20px] sm:text-[24px] md:text-[34px] md:text-[] text-[#333881]' />
+              <FiFacebook className=' cursor-pointer text-[24px] md:text-[34px] md:text-[] text-[#333881]' />
+              <AiOutlineGithub className=' cursor-pointer text-[24px] md:text-[34px] md:text-[] text-[#333881]' />
+              <FiLinkedin className=' cursor-pointer text-[24px] md:text-[34px]  text-[#333881]' />
             </div>
-        </div>
+        </div>  
     )
 }

@@ -1,11 +1,8 @@
 import './App.css';
 import React , {useState}  from 'react'
-import Home from './Pages/Home';
 import Navbar from './components/navbar/Navbar';
 import { SideBarMenu } from './components/navbar/menu/SideBarMenu';
-import { About } from './Pages/About';
-import { Contact } from './Pages/Contact';
-
+import { Home, About, Contact, Projects } from './Pages';
 
 const  App = () => {
   const [sideBarMenu , setSideBarMenu] = useState(false)
@@ -26,7 +23,9 @@ const  App = () => {
                   <Home  darkMode={darkMode}/>
           </div>
                   <About />
+                  <Projects />
                     <Contact />
+                    
                    {sideBarMenu &&  <SideBarMenu  setSideBarMenu = {setSideBarMenu}
                                   darkMode= {darkMode} 
                                   setDarkMode= {setDarkMode}

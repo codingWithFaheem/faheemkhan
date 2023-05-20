@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Home = ({darkMode}) => {
+ export const Home = ({darkMode}) => {
   const hireBtnModeEffect = darkMode ? 'border-[#9baee9] text-[#9baee9] hover:text-[#333188] hover:bg-[#9baee9]' : 'border-[#333188] text-[#333188] hover:bg-[#3943b3]  hover:text-[#9baee9] hover:bg-[#333188]' ;
 
   return (
-    <div  className=' max-w-[1240px] h-[75vh] md:h-screen  mt-20  px-8 md:px-8
+    <div  className=' max-w-[1240px] h-screen  mt-20  px-8 md:px-8
                        flex flex-col items-center md:items-start md:flex-row   w-[100%]
                        '>
                         
@@ -39,5 +39,3 @@ const Home = ({darkMode}) => {
    
   )
 }
-
-export default Home

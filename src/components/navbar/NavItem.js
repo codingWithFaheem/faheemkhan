@@ -1,4 +1,3 @@
-import React from 'react'
 const NavItem = ({name , Icon , darkMode}) => {
   return (
     <div className={`  
