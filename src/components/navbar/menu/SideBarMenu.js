@@ -8,9 +8,11 @@ import {IoGitNetwork} from 'react-icons/io5'
 import {IoCallSharp} from 'react-icons/io5'
 import {HiOutlineSun} from 'react-icons/hi'
 import { CiDark } from 'react-icons/ci'
+import { useProfile } from '../../../Context/AppContextProvider'
 
 
-export const SideBarMenu = ({setSideBarMenu ,darkMode , setDarkMode}) => {
+export const SideBarMenu = () => {
+  const {setSideBarMenu ,darkMode , setDarkMode} = useProfile
   return (
     <div className={`z-20 h-[450px]  bg-[#131076] md:hidden  w-[240px] absolute  right-0 top-16
       rounded-bl-[22px]

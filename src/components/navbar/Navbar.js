@@ -9,9 +9,9 @@ import {HiOutlineSun} from 'react-icons/hi'
 import { CiDark } from 'react-icons/ci'
 import {CiMenuBurger, CiMenuFries} from 'react-icons/ci'
 import { Navitem2 } from './Navitem2'
-import { ProfileContext } from '../../Context/AppContext'
-const Navbar = ({sideBarMenu , setSideBarMenu,darkMode , setDarkMode}) => {
-
+import { ProfileContext, useProfile } from '../../Context/AppContextProvider'
+const Navbar = () => {
+    const {darkMode , sideBarMenu ,setSideBarMenu,setDarkMode } = useProfile()
   return (
     <nav className={`max-w-[1240px]  md:h-24 h-16  ${darkMode ? 'bg-[#3943b3]': ' bg-[#333188]' } w-[100%]  rounded-[14px]
     flex  justify-between items-center 
@@ -64,6 +64,7 @@ const Navbar = ({sideBarMenu , setSideBarMenu,darkMode , setDarkMode}) => {
 
           </div>
     </nav>
+   
   )
 }
 
