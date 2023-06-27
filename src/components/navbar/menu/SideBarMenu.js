@@ -12,7 +12,7 @@ import { useProfile } from '../../../Context/AppContextProvider'
 
 
 export const SideBarMenu = () => {
-  const {setSideBarMenu ,darkMode , setDarkMode} = useProfile
+  const {setSideBarMenu ,darkMode , setDarkMode} = useProfile()
   return (
     <div className={`z-20 h-[450px]  bg-[#131076] md:hidden  w-[240px] absolute  right-0 top-16
       rounded-bl-[22px]
